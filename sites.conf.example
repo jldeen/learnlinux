@@ -1,0 +1,18 @@
+#Plex Linux App
+NameVirtualHost *:80
+
+<VirtualHost *:80>
+        ServerName 1604demo.jessicadeen.com
+        ServerAdmin jessica.deen@microsoft.com
+        ProxyPreserveHost On
+        ProxyPass / http://localhost:8181/
+        ProxyPassReverse / http://localhost:8181/
+</VirtualHost>
+
+<VirtualHost *:80>
+        ServerName 1604php.jessicadeen.com
+        ServerAdmin jessica.deen@microsoft.com
+        DocumentRoot /var/www/html/
+        ErrorLog ${APACHE_LOG_DIR}/error.log
+        CustomLog ${APACHE_LOG_DIR}access.log combined
+</VirtualHost>
