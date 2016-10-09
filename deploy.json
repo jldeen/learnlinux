@@ -14,7 +14,7 @@
         "description": "Admin password for both VMs"
       }
     },
-     "variables": {
+    "variables": {
     "storageAccountName": "[concat(uniquestring(resourceGroup().id), 'sawinvm')]",
     "storageAccountDiagName": "[concat(uniquestring(resourceGroup().id), 'sawinvm')]",
     "nicLinuxName": "myLinuxNic",
