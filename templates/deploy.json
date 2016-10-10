@@ -5,13 +5,13 @@
     "adminUsername": {
       "type": "string",
       "metadata": {
-        "description": "User name for the Virtual Machine."
+        "description": "User name for both Virtual Machines."
       }
     },
     "adminPassword": {
       "type": "securestring",
       "metadata": {
-        "description": "Password for the Virtual Machine."
+        "description": "Password for both Virtual Machines."
       }
     },
     "networkSecurityGroup": {
@@ -68,7 +68,6 @@
       "properties": {}
     },
     {
-            "comments": "Generalized from resource: '/subscriptions/2f6472b1-f49b-4d88-87cf-30d3083413b5/resourceGroups/learnlinux/providers/Microsoft.Network/networkSecurityGroups/Learnlnx-nsg'.",
             "type": "Microsoft.Network/networkSecurityGroups",
             "name": "[parameters('networkSecurityGroup')]",
             "apiVersion": "2016-03-30",

@@ -25,8 +25,8 @@ Write-Output "The Location you're putting your VM in is $Location."
 Write-Output "The name of your resource group is $Resource."
 Write-Output "The name of your deployment is $Name."
 
-$TempFile="Deploy.json"
+$TempFile="templates/deploy.json"
 
 New-AzureRmResourceGroup $Resource $Location
 
-New-AzureRmResourceGroupDeployment -Name $Name -ResourceGroupName $Resource -TemplateFile $TempFile -Verbose
+New-AzureRmResourceGroupDeployment -Name $Name -ResourceGroupName $Resource -TemplateUri $TempFile -Verbose
