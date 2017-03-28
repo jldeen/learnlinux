@@ -3,6 +3,8 @@
 
 ### Setup Infrastructure
 
+[Channel 9 Video](https://channel9.msdn.com/Blogs/AzureRM-Management-from-any-Platform/So-You-Want-To-Learn-Linux) 
+
 Deploy out one (1) resource group with the following:
 
 - 1 Windows Server 2012 R2 VM
