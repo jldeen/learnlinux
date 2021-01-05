@@ -3,7 +3,7 @@
 
 ### Setup Infrastructure
 
-[Channel 9 Video](https://channel9.msdn.com/Blogs/AzureRM-Management-from-any-Platform/So-You-Want-To-Learn-Linux) 
+[Channel 9 Video](https://channel9.msdn.com/Blogs/AzureRM-Management-from-any-Platform/So-You-Want-To-Learn-Linux?WT.mc_id=devops-0000-jessde) 
 
 Deploy out one (1) resource group with the following:
 
